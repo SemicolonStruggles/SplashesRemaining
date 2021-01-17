@@ -40,22 +40,6 @@ for account in accounts:
     remainingExp = max(targetExp - currentExp, 0)
     castsRemaining = math.ceil(remainingExp / spellExp)
 
-
-    print(f" <<<< Calculations for {account} >>>> ")
-    print("")
-    print(f"Current experience: {currentExp}")
-    print(f"Target experience: {targetExp}")
-    print(f"Remaining Experience: {remainingExp}")
-    print()
-    print(f"{spellName} casts remaining: {castsRemaining}")
-    print("Runes required:")
-
-    for rune, amount in spellRunes.items():
-        print(f"  {rune.capitalize()} rune: {amount * castsRemaining}")
-
-    print("-----------------------------------------")
-    print()
-
     file.write(f" <<<< Calculations for {account} >>>> \n")
     file.write("\n")
     file.write(f"Current experience: {currentExp}\n")
