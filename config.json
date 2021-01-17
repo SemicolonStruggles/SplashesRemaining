@@ -1,0 +1,13 @@
+{
+  "target_exp": 13034431,
+  "spell":{
+    "name": "Wind strike",
+    "exp": 11.5,
+    "runes": {
+      "fire": 3,
+      "air": 2,
+      "mind": 1
+    }
+  },
+  "accounts": ["Get Exp", "Mystic Blade"]
+}
