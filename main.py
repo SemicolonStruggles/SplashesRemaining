@@ -44,7 +44,7 @@ for account in accounts:
     file.write("\n")
     file.write(f"Current experience: {currentExp}\n")
     file.write(f"Target experience: {targetExp}\n")
-    file.write(f"Remaining Experience: {remainingExp}\n")
+    file.write(f"Remaining experience: {remainingExp}\n")
     file.write("\n")
     file.write(f"{spellName} casts remaining: {castsRemaining}\n")
     file.write("Runes required:\n")
